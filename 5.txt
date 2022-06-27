@@ -1,0 +1,8 @@
+/*SELECT * FROM [dbo].[Cars];*/
+
+--SELECT Model FROM [dbo].[Cars];
+
+--SELECT Model,Status FROM [dbo].[Cars];
+
+
+SELECT Model,Status FROM [dbo].[Cars] WHERE (Status = 'Ready' or Model ='Toyota Prius');

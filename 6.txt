@@ -1,0 +1,11 @@
+SELECT
+  cc.Id,
+  cc.Model ModelName,
+  cus.Id,
+  cus.LName LastNameCustomer
+FROM [USER-PC].[Test1_DB].[dbo].[Cars] AS cc 
+INNER JOIN Customers AS cus
+    ON (cc.Id = cus.Id)
+
+--WHERE StandardPrice > $10
+ --   AND Name LIKE N'F%';
