@@ -1,0 +1,6 @@
+--SELECT * FROM [Test1_DB].[dbo].[Employees] WHERE Salary BETWEEN 400 and 500
+
+--SELECT * FROM [Test1_DB].[dbo].[Employees] WHERE FName LIKE 'J%'
+
+
+SELECT * FROM [Test1_DB].[dbo].[Employees] WHERE Salary IN (400,600)
