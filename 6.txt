@@ -9,3 +9,5 @@ INNER JOIN Customers AS cus
 
 --WHERE StandardPrice > $10
  --   AND Name LIKE N'F%';
+
+SELECT * FROM [Test1_DB].[dbo].[Employees] as e LEFT OUTER JOIN [Test1_DB].[dbo].[Cars] ON e.Id=EmployeeId
