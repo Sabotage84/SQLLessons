@@ -11,3 +11,5 @@ INNER JOIN Customers AS cus
  --   AND Name LIKE N'F%';
 
 SELECT * FROM [Test1_DB].[dbo].[Employees] as e LEFT OUTER JOIN [Test1_DB].[dbo].[Cars] ON e.Id=EmployeeId
+
+SELECT * FROM [Test1_DB].[dbo].[Cars] as e RIGHT OUTER JOIN [Test1_DB].[dbo].[Employees] ON [Test1_DB].[dbo].[Employees].Id=e.EmployeeId
